@@ -5,7 +5,7 @@ A multifunctional R Shiny map tool deployed locally and designed to make NEON da
 
 ## Overview
 
-The NEON Shiny Browser is an interactive tool to browse, pull, and manipulate data collected by [NEON](https://www.neonscience.org/). This R Shiny app uses [leaflet](https://leafletjs.com/), [neonUtilities](https://github.com/NEONScience/NEON-utilities/tree/master/neonUtilities), and [nneo](https://github.com/ropensci/nneo) to create a comprehensive tool that allows users to do everything from browsing NEON sites, to finding and downloading and unziping data products.
+The NEON Shiny Browser is an interactive tool to browse, pull, and manipulate data collected by [NEON](https://www.neonscience.org/). This R Shiny app uses [leaflet](https://leafletjs.com/), [neonUtilities](https://github.com/NEONScience/NEON-utilities/tree/master/neonUtilities), and [nneo](https://github.com/ropensci/nneo) to create a comprehensive tool that allows users to do everything from browsing NEON sites, to finding and downloading and unzipping data products.
 
 ### Features
 
@@ -57,6 +57,6 @@ install.packages(c('shiny','leaflet','leaflet.extras','neonUtilities','shinythem
 **Note: [Mac OS X](https://cran.r-project.org/bin/macosx/tools/) currently requires that `gfortran` and `clang` be installed in addition to the latest version of R (v3.5.1 "Feather Spray")** 
 
 ## FEEDBACK
-This is a message from the main developer of this app, [Daniel Lee](https://github.com/Danielslee51). I am an intern at [CyVerse](http://www.cyverse.org/). I don't personally know much about NEON data, sensors, or AOP tiles. Due to this, when displaying NEON data I put relevant attributes to the best of my ability, but sometimes I do not know what is actually useful to a scientist. For example, on the popups for the NEON field sites I included their site types and habitats, but maybe what really matters is the elevation (I have no clue). If anyone notices anything like this on any feature, please email me at dantheman6100@gmail.com.
+This is a message from the main developer of this app, [Daniel Lee](https://github.com/Danielslee51). I am an intern at [CyVerse](http://www.cyverse.org/). If anyone notices anything they see is wrong or want changed and improved, please create an Issue here. You can also contact my advisor, [Tyson L. Swetnam](https://github.com/tyson-swetnam).
 
 And of course, any other feedback or suggestions would be nice. I'd love to hear reactions from anyone who would potentially use the app in the future, as ultimately the app is here to help scientists who want to use it.
